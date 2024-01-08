@@ -10,8 +10,6 @@ Air Cargo is an aviation company that provides air transportation services for p
 
 You, as a DBA expert, need to focus on identifying the regular customers to provide offers, analyze the busiest route which helps to increase the number of aircraft required and prepare an analysis to determine the ticket sales details. This will ensure that the company improves its operability and becomes more customer-centric and a favorable choice for air travel.
 
-Note: You must download the dataset from the course resource section in the LMS and create the tables to perform the above objective.
-
  
 **Dataset description:**
 
@@ -84,6 +82,9 @@ Distance_miles – Distance between departure and arrival location
     distance travel (IDT) for >2000 AND <=6500, and long-distance travel (LDT) for >6500.
 19. Write a query to extract ticket purchase date, customer ID, class ID and specify if the complimentary services are provided for the specific class using a stored function in stored procedure on the 
     ticket_details table.
+    
     Condition:
+    
    If the class is Business and Economy Plus, then complimentary services are given as Yes, else it is No
+   
 20. Write a query to extract the first record of the customer whose last name ends with Scott using a cursor from the customer table.
