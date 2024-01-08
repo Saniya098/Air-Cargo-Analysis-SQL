@@ -84,7 +84,6 @@ Distance_miles – Distance between departure and arrival location
     ticket_details table.
     
     Condition:
-    
-   If the class is Business and Economy Plus, then complimentary services are given as Yes, else it is No
+    If the class is Business and Economy Plus, then complimentary services are given as Yes, else it is No
    
 20. Write a query to extract the first record of the customer whose last name ends with Scott using a cursor from the customer table.
